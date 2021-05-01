@@ -1,5 +1,4 @@
 const fs = require('fs')
-const path = require('path')
 const util = require('util')
 const sprintf = require('sprintf-js').vsprintf
 class myplugin extends global.Plugin {

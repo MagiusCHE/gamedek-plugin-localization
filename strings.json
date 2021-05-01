@@ -1,8 +1,4 @@
-{
-    "comments": [
-        "Arguments will passed in https://www.npmjs.com/package/sprintf-js formats.",
-        "Available locales can be found at https://www.electronjs.org/docs/api/locales"
-    ],
+{    
     "en": {
         "initialization_pleasewait": "System initialization. Please wait...",
         "loading_please_wait": "Loading. Please wait...",
