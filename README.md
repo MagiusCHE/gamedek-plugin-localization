@@ -1,0 +1,2 @@
+# localization
+Gamedek plugin
