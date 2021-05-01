@@ -35,6 +35,17 @@ class myplugin extends global.Plugin {
         }
         this.#strings = totstrings
     }
+    async addLocaleStrings(source, strings) {
+        let tot = 0
+        Object.keys(strings).forEach(k => {
+            for (const l in strings[k]) {
+                this.#strings[k][l] = strings[k][l]
+                tot++
+            }
+        })
+        this.log('Added %o locale strings from %o.', tot, source)
+
+    }
     async translateBlock(_args) {
         let str = _args.text
         if (typeof str != "string") {
@@ -56,13 +67,13 @@ class myplugin extends global.Plugin {
                 rawargs.forEach(a => {
                     if (!quotedopened) {
                         quotedopened = (a.substring(0, 1) == '"')
-                        totargs.push(quotedopened ? a.substr(1) : a)                        
+                        totargs.push(quotedopened ? a.substr(1) : a)
                     } else {
                         totargs[totargs.length - 1] += ' ' + a
                     }
                     if (a.substr(a.length - 1, 1) == '"' && quotedopened) {
                         quotedopened = false
-                        totargs[totargs.length - 1] = totargs[totargs.length - 1].substr(0, totargs[totargs.length - 1].length-1)
+                        totargs[totargs.length - 1] = totargs[totargs.length - 1].substr(0, totargs[totargs.length - 1].length - 1)
                     }
                 })
             }
