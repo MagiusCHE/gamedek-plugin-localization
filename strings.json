@@ -1,4 +1,4 @@
-{    
+{
     "en": {
         "initialization_pleasewait": "System initialization. Please wait...",
         "loading_please_wait": "Loading. Please wait...",
@@ -15,7 +15,13 @@
         "addgame_actiontip": "Select import method:",
         "goback": "go back",
         "browse": "Browse",
-        "addgameinfo_confirm": "Save changes"
+        "addgameinfo_confirm": "Save changes",
+        "dialog_ok": "Ok",
+        "dialog_abort": "Abort for now",
+        "dialog_proceed": "Proceed",
+        "dialog_game_uninstall": "Uninstall ",
+        "game_dialog_uninstall_switch": "Remove game from library",
+        "game_dialog_uninstall_inprogress": "Removing game..."
     },
     "it": {
         "initialization_pleasewait": "Inizializzazione in corso...",
@@ -34,6 +40,11 @@
         "goback": "indietro",
         "browse": "Sfoglia",
         "addgameinfo_confirm": "Salva cambiamenti",
-        "dialog_ok": "Ok"
+        "dialog_ok": "Ok",
+        "dialog_abort": "Meglio di no",
+        "dialog_proceed": "Procedi",
+        "dialog_game_uninstall": "Disinstalla ",
+        "game_dialog_uninstall_switch": "Rimuovi il gioco dalla libreria",
+        "game_dialog_uninstall_inprogress": "Rimozione gioco in corso..."
     }
 }
