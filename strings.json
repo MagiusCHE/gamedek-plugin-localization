@@ -17,7 +17,7 @@
         "browse": "Browse",
         "addgameinfo_confirm": "Save changes",
         "dialog_ok": "Ok",
-        "dialog_abort": "Abort for now",
+        "dialog_abort": "Do nothing for now",
         "dialog_proceed": "Proceed",
         "dialog_game_uninstall": "Uninstall ",
         "game_dialog_uninstall_switch": "Remove game from library",
