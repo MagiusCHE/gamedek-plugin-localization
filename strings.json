@@ -21,7 +21,9 @@
         "dialog_proceed": "Proceed",
         "dialog_game_uninstall": "Uninstall ",
         "game_dialog_uninstall_switch": "Remove game from library",
-        "game_dialog_uninstall_inprogress": "Removing game..."
+        "game_dialog_uninstall_inprogress": "Removing game...",
+        "common_add": "Add",
+        "common_del": "Del"
     },
     "it": {
         "initialization_pleasewait": "Inizializzazione in corso...",
@@ -45,6 +47,8 @@
         "dialog_proceed": "Procedi",
         "dialog_game_uninstall": "Disinstalla ",
         "game_dialog_uninstall_switch": "Rimuovi il gioco dalla libreria",
-        "game_dialog_uninstall_inprogress": "Rimozione gioco in corso..."
+        "game_dialog_uninstall_inprogress": "Rimozione gioco in corso...",
+        "common_add": "Aggiungi",
+        "common_del": "Rimuovi"
     }
 }
