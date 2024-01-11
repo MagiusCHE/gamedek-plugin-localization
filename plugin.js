@@ -77,7 +77,10 @@ class myplugin extends global.Plugin {
                     }
                 })
             }
-            const format = this.#strings[kernel.locale]?.[langid] || this.#strings[this.manifest.fallback][langid]
+
+            const locale = kernel.locale ? kernel.locale.split('-')[0] : this.manifest.fallback
+
+            const format = this.#strings[locale][langid] || this.#strings[this.manifest.fallback][langid]
             if (format === undefined) {
                 this.logError("## Missing Langid: " + langid + " ##")
                 return "## Missing Langid: " + langid + " ##"
